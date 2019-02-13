@@ -5,6 +5,7 @@ using namespace std;
 #include "Observer.h"
 #include "Template.h"
 #include "Command.h"
+#include "Adapter.h"
 
 int main()
 {
@@ -20,4 +21,6 @@ int main()
 	testCommand();
 	cout << "\n\n";
 
+	testAdapter();
+	cout << "\n\n";
 }
