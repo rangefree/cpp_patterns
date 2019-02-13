@@ -34,7 +34,9 @@
     <ClCompile Include="Template.cpp">
       <Filter>Source\Template</Filter>
     </ClCompile>
-    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Command.cpp">
+      <Filter>Source\Command</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Visitor.h">
@@ -52,6 +54,8 @@
     <ClInclude Include="Template.h">
       <Filter>Source\Template</Filter>
     </ClInclude>
-    <ClInclude Include="Command.h" />
+    <ClInclude Include="Command.h">
+      <Filter>Source\Command</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
