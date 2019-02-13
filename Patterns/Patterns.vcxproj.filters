@@ -13,5 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Visitor">
+      <UniqueIdentifier>{ec7ca872-4315-4e6a-80e8-d1d026ad4663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisitorTarget.cpp">
+      <Filter>Visitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visitor.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitorTarget.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitorTest.h">
+      <Filter>Visitor</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
