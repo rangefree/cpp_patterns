@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void visitorTest()
+void testVisitor()
 {
 	Target t;
 	Target1 t1;

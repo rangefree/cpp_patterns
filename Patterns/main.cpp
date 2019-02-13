@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 
-#include"VisitorTest.h"
-
+#include"TestVisitor.h"
+#include "Observer.h"
 
 
 int main()
 {
-	visitorTest();
+	testVisitor();
+	testObserver();
 
 }
