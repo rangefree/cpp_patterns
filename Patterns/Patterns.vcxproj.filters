@@ -14,6 +14,9 @@
     <Filter Include="Source\Visitor">
       <UniqueIdentifier>{ec7ca872-4315-4e6a-80e8-d1d026ad4663}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Template">
+      <UniqueIdentifier>{c061d388-a398-4018-9641-8b838429d1ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VisitorTarget.cpp">
@@ -24,6 +27,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Template.cpp">
+      <Filter>Source\Template</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +44,9 @@
     </ClInclude>
     <ClInclude Include="TestVisitor.h">
       <Filter>Source\Visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>Source\Template</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

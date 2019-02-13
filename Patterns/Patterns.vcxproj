@@ -120,10 +120,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Template.cpp" />
     <ClCompile Include="VisitorTarget.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="Template.h" />
     <ClInclude Include="Visitor.h" />
     <ClInclude Include="VisitorTarget.h" />
     <ClInclude Include="TestVisitor.h" />
