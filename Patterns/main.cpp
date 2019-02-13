@@ -4,7 +4,7 @@ using namespace std;
 #include"TestVisitor.h"
 #include "Observer.h"
 #include "Template.h"
-
+#include "Command.h"
 
 int main()
 {
@@ -15,6 +15,9 @@ int main()
 	cout << "\n\n";
 
 	testTemplate();
+	cout << "\n\n";
+
+	testCommand();
 	cout << "\n\n";
 
 }
