@@ -23,6 +23,9 @@
     <Filter Include="Source\Adapter">
       <UniqueIdentifier>{dbb4cb4c-c258-4c5a-90b0-2e8432857e97}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Builder">
+      <UniqueIdentifier>{a1308aed-348c-4fc7-98a9-80fb11a27b4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VisitorTarget.cpp">
@@ -42,6 +45,9 @@
     </ClCompile>
     <ClCompile Include="Adapter.cpp">
       <Filter>Source\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Source\Builder</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +71,9 @@
     </ClInclude>
     <ClInclude Include="Adapter.h">
       <Filter>Source\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Source\Builder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

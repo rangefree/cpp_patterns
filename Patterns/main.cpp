@@ -6,6 +6,7 @@ using namespace std;
 #include "Template.h"
 #include "Command.h"
 #include "Adapter.h"
+#include "Builder.h"
 
 int main()
 {
@@ -22,5 +23,8 @@ int main()
 	cout << "\n\n";
 
 	testAdapter();
+	cout << "\n\n";
+
+	testBuilder();
 	cout << "\n\n";
 }
