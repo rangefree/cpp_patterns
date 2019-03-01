@@ -26,6 +26,9 @@
     <Filter Include="Source\Builder">
       <UniqueIdentifier>{a1308aed-348c-4fc7-98a9-80fb11a27b4d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Monitor">
+      <UniqueIdentifier>{42572c84-e9ce-4f98-839e-05ff6700ad6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="VisitorTarget.cpp">
@@ -48,6 +51,9 @@
     </ClCompile>
     <ClCompile Include="Builder.cpp">
       <Filter>Source\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor.cpp">
+      <Filter>Source\Monitor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +80,9 @@
     </ClInclude>
     <ClInclude Include="Builder.h">
       <Filter>Source\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>Source\Monitor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

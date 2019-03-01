@@ -12,12 +12,20 @@ struct CarImp
 
 struct SedanImp : CarImp
 {
-	SedanImp() : CarImp() { sits = 5; }
+	SedanImp() : CarImp()
+	{ 
+		cout << "  SedanImp(" << this << "): new Sedan hardware created" << endl;
+		sits = 5; 
+	}
 };
 
 struct SuvImp : CarImp
 {
-	SuvImp() : CarImp() { sits = 5; }
+	SuvImp() : CarImp() 
+	{ 
+		cout << "  SUVImp(" << this << "): new SUV hardware created" << endl;
+		sits = 5; 
+	}
 };
 
 
@@ -47,21 +55,33 @@ class SedanBuilder : public CarBuilder
 {
 public:
 	SedanBuilder() {};
-	virtual CarImp* build(){return new SedanImp;}
+	virtual CarImp* build()
+	{
+		cout << "  SedanBuilder(" << this << "): building new Sedan" << endl;
+		return new SedanImp;
+	}
 };
 
 class SuvBuilder : public CarBuilder
 {
 public:
 	SuvBuilder() {};
-	virtual CarImp* build() { return new SuvImp; }
+	virtual CarImp* build() 
+	{ 
+		cout << "  SuvBuilder("<< this << "): building new SUV" << endl;
+		return new SuvImp; 
+	}
 };
 
 
 class CarFactory
 {
 public:
-	Car* construct(CarBuilder& builder){ return new Car(builder.build()); }
+	Car* construct(CarBuilder& builder)
+	{
+		cout << "CarFactory: invoke  Builder ("<< &builder << ")" << endl;
+		return new Car(builder.build()); 
+	}
 };
 
 

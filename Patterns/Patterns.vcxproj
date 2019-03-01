@@ -122,6 +122,7 @@
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monitor.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="Template.cpp" />
     <ClCompile Include="VisitorTarget.cpp" />
@@ -130,6 +131,7 @@
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="Command.h" />
+    <ClInclude Include="Monitor.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="Template.h" />
     <ClInclude Include="Visitor.h" />
