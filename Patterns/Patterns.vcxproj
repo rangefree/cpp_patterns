@@ -124,6 +124,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monitor.cpp" />
     <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="SpinLock.cpp" />
     <ClCompile Include="Template.cpp" />
     <ClCompile Include="VisitorTarget.cpp" />
   </ItemGroup>
@@ -133,6 +134,7 @@
     <ClInclude Include="Command.h" />
     <ClInclude Include="Monitor.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="SpinLock.h" />
     <ClInclude Include="Template.h" />
     <ClInclude Include="Visitor.h" />
     <ClInclude Include="VisitorTarget.h" />

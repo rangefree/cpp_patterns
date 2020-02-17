@@ -7,6 +7,7 @@ using namespace std;
 #include "Command.h"
 #include "Adapter.h"
 #include "Builder.h"
+#include "SpinLock.h"
 
 int main()
 {
@@ -26,5 +27,8 @@ int main()
 	cout << "\n\n";
 
 	testBuilder();
+	cout << "\n\n";
+
+	testSpinLock();
 	cout << "\n\n";
 }

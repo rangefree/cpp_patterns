@@ -55,6 +55,7 @@
     <ClCompile Include="Monitor.cpp">
       <Filter>Source\Monitor</Filter>
     </ClCompile>
+    <ClCompile Include="SpinLock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Visitor.h">
@@ -84,5 +85,6 @@
     <ClInclude Include="Monitor.h">
       <Filter>Source\Monitor</Filter>
     </ClInclude>
+    <ClInclude Include="SpinLock.h" />
   </ItemGroup>
 </Project>
